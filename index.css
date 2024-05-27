@@ -45,7 +45,7 @@ body {
 }
 
 .card__date {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   display: block;
   margin-bottom: 1em;
 }
@@ -87,6 +87,7 @@ h1:focus {
 
 p {
   color: #7f7f7f;
+  line-height: 1.5rem;
 }
 
 .attribution {
