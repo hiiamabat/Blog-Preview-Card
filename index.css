@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Figtree, sans-serif;
+  font-size: 14px;
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  align-self: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #000;
+  box-shadow: 8px 8px 0 rgb(0, 0, 0);
+  margin: 1.25em auto;
+  padding: 1.25em;
+  text-align: left;
+  width: 327px;
+}
+
+.card__image > img {
+  border-radius: 10px;
+  margin-bottom: 1.25em;
+  width: 100%;
+}
+
+.card__tag {
+  background: #f4d04e;
+  border-radius: 5px;
+  color: #000;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 800;
+  margin-bottom: 1.25em;
+  padding: 0.5em 1em;
+}
+
+.card__date {
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.card__author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.25em;
+}
+
+.card__avatar > img {
+  width: 32px;
+}
+
+.card__user {
+  font-weight: 800;
+  margin-left: 0.5em;
+  font-size: 0.75rem;
+}
+
+h1 {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
+
+.card a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1:hover,
+h1:focus {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+p {
+  color: #7f7f7f;
+}
+
+.attribution {
+  font-size: 0.75rem;
+  margin-top: 1.25em;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
